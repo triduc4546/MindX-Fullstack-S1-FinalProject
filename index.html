@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducky Coffee Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class ="min-h-screen">
+    <div id="navbar" class="sticky z-50 top-0">
+        <nav class="bg-white text-black border-b border-gray-200">
+            <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
+                <a href="#" class="text-3xl font-bold">DUCKY COFFEE SHOP</a>
+                <div class="flex flex-wrap gap-20">
+                     <a href="index.html" class="text-black font-black text-xl">Home</a>
+                     <a href="products.html" class="text-black font-black text-xl">Products</a>
+                     <a href="orders.html" class="text-black font-black text-xl">Orders</a>
+                     <a href="#login" class="text-black font-bold rounded-2xl outline outline-offset-8">Login</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main class="mx-auto flex min-h-screen max-w-[1340px] flex-col items-center gap-12 px-6 py-6 md:flex-row md:gap-16 md:px-[52px]">
+  <section class="w-full md:w-1/2">
+    <h1 class="text-5xl font-extrabold sm:text-6xl lg:text-[72px]">
+      <span class="text-amber-600">DUCKY</span><br><span class="text-orange-900">COFFEE</span><br>SHOP
+    </h1>
+    <p class="mt-8 text-xl">The Energy Coffee That Changes Life</p>
+    <a href="products.html" class="mt-6 inline-block rounded-2xl px-8 py-3.5 text-md font-semibold text-black bg-orange-500 hover:bg-orange-600">Explore Products</a>
+  </section>
+  <section class="w-full md:w-1/2">
+    <div class="overflow-hidden rounded-[28px] bg-white shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25)]">
+      <img src="coffee-image.png" alt="Coffee" class="w-full h-auto">
+    </div>
+  </section>
+</main>
+</body>
+</html>
